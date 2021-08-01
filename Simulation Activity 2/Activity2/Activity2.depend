@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1627800311 source:c:\users\nayak\onedrive\desktop\activity2\activity.c
+	"Activity.h"
+
+1627800275 c:\users\nayak\onedrive\desktop\activity2\activity.h
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+
+1627800089 source:c:\users\nayak\onedrive\desktop\activity2\fuse.c
+	<avr/io.h>
+
+1627801867 source:c:\users\nayak\onedrive\desktop\activity2\main.c
+	"Activity.h"
+

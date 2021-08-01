@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1627796889 source:c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\finaloutput.c
+	"FinalOutput.h"
+
+1627796889 c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\finaloutput.h
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+
+1627796580 source:c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\fuse.c
+	<avr/io.h>
+
+1627797342 source:c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\main.c
+	"Input.h"
+	"FinalOutput.h"
+
+1627796889 c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\input.h
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+
+1627797269 source:c:\users\nayak\onedrive\desktop\sambitlas\302954_embedded_sambit\input.c
+	"Input.h"
+

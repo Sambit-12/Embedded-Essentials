@@ -1,15 +1,9 @@
 /*
  */
-#include <avr/io.h>
-int main()
+#include "Project.h"
+int main(void)
 {
-DDRD |=(1<<PD6); // Led Output
-DDRD &=~(1<<PD4);// Input of the Heater
-DDRD &=~(1<<PD0);// Input of seat Button
-
-/* Enabling Pull ups at pin 0 and Pin 4 of Port D*/
-PORTD |= (1<<PD4); //Setting up the Bit
-PORTD |= (1<<PD0); //Setting up the Bit
+  port();
 
     while(1)
         {
@@ -17,13 +11,14 @@ PORTD |= (1<<PD0); //Setting up the Bit
             if((!(PIND&(1<<PD4)))&(!(PIND&(1<<PD0))))
                {
                    PORTD |=(1<<PD6); //Turn on Led
+                   _delay_ms(20);
                }
           else
           {
               PORTD &= ~(1<<PD6); //Turn of Led
+              _delay_ms(20);
           }
 
     }
     return 0;
 }
-

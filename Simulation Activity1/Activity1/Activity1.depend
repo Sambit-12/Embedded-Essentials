@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1627803793 source:c:\users\nayak\onedrive\desktop\activity1\fuse.c
+	<avr/io.h>
+
+1627804018 source:c:\users\nayak\onedrive\desktop\activity1\main.c
+	"Project.h"
+
+1627803954 source:c:\users\nayak\onedrive\desktop\activity1\project.c
+	"Project.h"
+
+1627803910 c:\users\nayak\onedrive\desktop\activity1\project.h
+	<avr/io.h>
+	<util/delay.h>
+
